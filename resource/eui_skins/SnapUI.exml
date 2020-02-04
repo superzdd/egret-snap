@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SnapUISkin" width="750" height="1449" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1700ff13a5a"></w:Config>
+	<e:Rect id="rectBG" left="0" right="0" top="0" bottom="0" />
+	<e:Image id="imgLogo" source="herdsric1_jpg" x="125" y="33.18" />
+	<e:Group id="gpSnap" x="246" y="593.9">
+		<e:Rect width="257.88" height="56.36" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xf40909" x="0" />
+		<e:Label text="点击截图" x="69" y="13.18" />
+	</e:Group>
+	<e:Label id="lblSnapResult" text="截图结果：" x="0" y="682" width="750" textAlign="center" />
+</e:Skin>
