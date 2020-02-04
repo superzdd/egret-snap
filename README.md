@@ -1,12 +1,14 @@
 # 白鹭引擎保存截图跨域问题
 
-这是一个完整的白鹭(egret)demo。演示了在白鹭 html5 中，在使用白鹭 api `RenderTexture.drawToTexture`进行截图时，如何避免跨域问题。
+这是一个完整的白鹭(egret)demo。演示了在白鹭 html5 中，在使用白鹭 api `RenderTexture.drawToTexture`进行截图时，如何避免跨域，成功截图并显示到页面上。
 
 ## 先说结论
 
-### step1 渲染引擎切换到 canvas
+关键字：**canvas**&**anonymous**。
 
-在 index.html 中，修改 renderMode:
+### step1
+
+渲染引擎切换到 canvas。在 index.html 中，修改 renderMode:
 
 ```js
 egret.runEgret({
